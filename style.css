@@ -86,7 +86,7 @@ body {
 }
 
 .bottom_left{
-    position: absolute;
-    top: 90%;
+    position: fixed;
+    bottom: 2%;
     left:2%;
 }
