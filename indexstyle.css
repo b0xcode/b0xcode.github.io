@@ -1,0 +1,92 @@
+
+h1 {
+    font-weight:bolder;
+    font-size: xx-large;
+}
+
+h2 {
+    font-weight:bolder;
+    font-size: x-large;
+}
+
+p {
+    font-family: arial;
+}
+
+i {
+    font-style: italic;
+}
+
+b {
+    font-style: bold;
+}
+
+body {
+    color: #634947;
+    font-family: Arial, sans-serif;
+    background-color:#ebf0de
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border:solid*/
+}
+
+#title{
+    
+}
+
+.icon{
+    user-select: none;
+
+}
+
+#icon1 {
+    position:absolute;
+    right:140%;
+    bottom:220%;
+}
+
+#icon2 {
+    position:absolute;
+    right:180%;
+    bottom:5%;
+}
+
+#icon3 {
+    position:absolute;
+    right:140%;
+    bottom:-215%;
+}
+
+#icon4 {
+    position:absolute;
+    left: 140%;
+    bottom:220%;
+}
+
+#icon5 {
+    position:absolute;
+    left: 180%;
+    bottom: 5%;
+}
+
+#icon6 {
+    position:absolute;
+    left: 140%;
+    bottom:-215%;
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* mobile css goes here
+    #icon1 {
+        position:absolute;
+        left:0%;
+        bottom:5%;
+    }
+    */
+}
+
