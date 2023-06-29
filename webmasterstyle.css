@@ -1,61 +1,79 @@
 body {
     color: #634947;
     font-family: Arial, sans-serif;
-    background-color:#ebf0de
+    background-color: #ebf0de
+}
+
+p {
+    font-family: "ＭＳ Ｐゴシック";
 }
 
 img {
     max-height: 100%;
 }
 
-center{
-    padding:0%;
-    
+center {
+    padding: 0%;
+
 }
 
-.about-box{
+a {
+    color: #3b15ae;
+    font-family: monospace
+}
+
+a.nav:hover,
+a.nav:active {
+    color: #8f54ec;
+    letter-spacing: 0.1em;
+    font-style: italic;
+}
+
+
+.about-box {
     position: absolute;
+    font-family: "ＭＳ Ｐゴシック";
     top: 63%;
     left: 33%;
     transform: translate(-50%, -50%);
-    z-index:5;
-    height:45vh;
-    width:45vw;
+    z-index: 5;
+    height: 300;
+    width: 300;
     /* border:solid 2px #4d6b48;
-    border-radius: 2%;
-    background-color: #ebf0de; */
-    color:#4d6b48;
-    opacity: 0.8; 
+    border-radius: 2%;*/
+    background-color: #ebf0de;
+    color: #4d6b48;
+    opacity: 0.8;
 
     padding: 3%;
 }
 
-.doll{
-    position:absolute;
+.doll {
+    position: absolute;
     height: 95vh;
     width: 79.1vh;
     right: 10%;
     top: 1%;
 }
 
-.container{
-    position:absolute;
-    height:15vh;
-    left:24.5%;
-    top:21%;
+.container {
+    position: absolute;
+    height: 15vh;
+    left: 24.5%;
+    top: 21%;
     z-index: -1;
 }
 
-.lefteye{
-    position:absolute;
-    height:04vh;
-    left:14%;
-    top:28%;
+.lefteye {
+    position: absolute;
+    height: 04vh;
+    left: 14%;
+    top: 28%;
 }
 
-.righteye{
-    position:absolute;
-    height:04vh;
-    left:59%;
-    top:28%;
-} 
+.righteye {
+    position: absolute;
+    height: 04vh;
+    left: 59%;
+    top: 28%;
+}

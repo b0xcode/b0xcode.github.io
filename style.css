@@ -3,69 +3,170 @@
     v2.0 | 20110126
     License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 /**************************************************************/
 /* css */
 
 h1 {
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: xx-large;
 }
 
 h2 {
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: x-large;
 }
 
 h3 {
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: large;
+    text-align: center;
+}
+
+h4 {
+    font-weight: bolder;
+    font-size: medium;
+    text-align: center;
+}
+
+h5 {
+    font-weight: bolder;
+    font-size: small;
+    text-align: center;
 }
 
 p {
-    font-family: arial;
+    font-family: "ＭＳ Ｐゴシック";
 }
 
 i {
@@ -78,32 +179,65 @@ b {
 
 body {
     color: #634947;
-    font-family: Arial, sans-serif;
-    background-color:#ebf0de
+    font-family: "ＭＳ Ｐゴシック";
+    background-color: #ebf0de;
+    margin: auto;
+    width: 900px;
 }
 
-.center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+a {
+    color: #3b15ae;
+    font-family: monospace
 }
 
-.bottom_left{
-    position: fixed;
-    bottom: 2%;
-    left:2%;
+a.nav:hover,
+a.nav:active {
+    color: #8f54ec;
+    letter-spacing: 0.1em;
+    font-style: italic;
 }
 
-#box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width:420px;
-    height:360px;
-    border:solid 1px #634947;
-    background-color:#b5e1a8;
+.container {
+    display: grid;
+    grid-template-columns: 200px 470px 200px;
+    justify-content: center;
+    margin: auto;
+    padding: 2px;
+    image-rendering: pixelated;
+}
+
+.header {
+    width: 800px;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid #634947;
+    background: #fefff8;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.box-inner {
+    padding: 5px;
+}
+
+.left-sidebar {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200px;
+}
+
+.right-sidebar {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200px;
+}
+
+.main {
+    width: 480px;
 }
