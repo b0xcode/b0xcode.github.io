@@ -226,6 +226,15 @@ a.nav:active {
     padding: 5px;
 }
 
+.log-scroller {
+    border:1px solid; 
+    width:40%; 
+    margin-left:auto;
+    padding: 10px;
+    overflow:auto;
+    max-height: 180px;
+}
+
 .left-sidebar {
     margin-left: 5px;
     margin-right: 5px;
