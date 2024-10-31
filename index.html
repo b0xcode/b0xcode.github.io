@@ -1,27 +1,22 @@
-<!DOCTYPE html>
+---
+title: Home
+layout: default
+---
+<!doctype html>
 <html>
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="style.css">
-<style>
-    .centered {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-</style>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>garden gates</title>
-</head>
-
-<body>
-    <div class="centered">
-        <a class="nav" style="font-size:x-large" href="home.html"> <img src="res/leafpix.png">click here to enter<img
-                src="res/leafpix.png"></a>
-    </div>
-
-</body>
-
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <h1>{{ "Hello World!" | downcase }}</h1>
+    <ul>
+        {% for post in site.posts %}
+          <li>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {{ post.excerpt }}
+          </li>
+        {% endfor %}
+      </ul>
+  </body>
 </html>
