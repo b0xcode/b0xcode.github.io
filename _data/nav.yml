@@ -2,3 +2,7 @@
   link: /
 - name: about
   link: /about.html
+- name: archive
+  link: /archive.html
+- name: links
+  link: /links.html
