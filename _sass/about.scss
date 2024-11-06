@@ -1,0 +1,43 @@
+#doll-container{
+    position:absolute;
+    border-style: none;
+    width: 60vw;
+    height:30vw;
+    margin-top: 20px;
+}
+
+#doll {
+    position:absolute;
+    top: 5%;
+    width:100%;
+}
+
+#sclera {
+    position:absolute;
+    top:5%;
+    width:100%;
+    z-index:-1;
+}
+
+#left-eye {
+    position:absolute;
+    left: 77.9%;
+    top:35.3%;
+    width:2.5%;
+}
+
+#right-eye {
+    position:absolute;
+    left: 84%;
+    top:33%;
+    width:2.5%;
+}
+
+#about {
+    flex-basis: 450px;
+    margin-right:auto;
+    margin-left:120px;
+    margin-top:80px;
+    z-index: 1;
+
+}
