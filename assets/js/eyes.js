@@ -1,3 +1,4 @@
+window.ondragstart = function () { return false };
 window.addEventListener("load", function () {
     var initialised;
 
